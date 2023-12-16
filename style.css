@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-size: 16px;    
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #f2cd45 0%, #d74747 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, #f2cd45 0%, #d74747 100%);
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+}
+
+.container div {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+
